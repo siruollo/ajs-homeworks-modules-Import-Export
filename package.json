@@ -1,0 +1,40 @@
+{
+  "name": "import.export",
+  "version": "1.0.0",
+  "description": "ajs-homeworks",
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.4.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siruollo/ajs-homeworks-modules-Import-Export.git"
+  },
+  "keywords": [
+    "Webpack"
+  ],
+  "author": "siruollo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siruollo/ajs-homeworks-modules-Import-Export/issues"
+  },
+  "homepage": "https://github.com/siruollo/ajs-homeworks-modules-Import-Export#readme"
+}
